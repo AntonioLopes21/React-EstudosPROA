@@ -16,10 +16,11 @@ function App() {
 
   return (
     <>
-      <Navbar/>
       <h1>Fundamentos do react: </h1>
+      <Header/>
+
       <FirstComponent />
-      
+      <Article/>
       <MainContent/>
       <Footer/>
     </>
