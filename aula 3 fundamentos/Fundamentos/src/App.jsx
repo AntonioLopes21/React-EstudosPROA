@@ -16,7 +16,6 @@ function App() {
 
   return (
     <>
-      <Header/>
       <Navbar/>
       <h1>Fundamentos do react: </h1>
       <FirstComponent />

@@ -4,11 +4,11 @@ import Navbar from './Navbar'
 const Header = () => {
 
     return (
-        <div>
-            <h1>esse aqui é o header</h1>
+        <header>
+            <Navbar>
         
-            <div> aqui o navbar{Navbar}</div>
-        </div>
+            </Navbar>
+        </header>
     )
 }
 

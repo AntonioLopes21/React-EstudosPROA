@@ -1,8 +1,16 @@
+import React from 'react'
+
 const Sidebar = () => {
     return (
-        <div>
-            <h1>aqui está o sideBar</h1>
-        </div>
+       <aside>
+            <h3>SideBar</h3>
+
+            <ul>
+                <li>link 1</li>
+                <li>link 2</li>
+                <li>link 3</li>
+            </ul>
+       </aside>
     )
 }
 

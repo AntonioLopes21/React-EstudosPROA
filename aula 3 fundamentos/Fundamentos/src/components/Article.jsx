@@ -1,9 +1,12 @@
+import React from 'react'
+
 const Article = () => {
 
     return (
-        <div>
-            <h1>Esse é um exemplo de article</h1>
-        </div>
+        <article>
+            <h2>Main Article</h2>
+            <p>esse é um conteúdo do article</p>
+        </article>
     )
 }
 
