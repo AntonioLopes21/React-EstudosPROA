@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  background-color: greenyellow;
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+$MyColor: red;
+
+h1{
+    color: $MyColor;
+    background-color: cyan;
+}
+
+.Botaozin {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    transition: 1.5s;
+
+}
+
+.Botaozin:hover{
+    color: black;
+    background-color: white;
+    
+}
