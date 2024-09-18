@@ -19,6 +19,7 @@ function InputField() {
     return (
         <div>
             <input type="text" value={value} onChange={handleChange}/>
+            <p>Evento de captação de tecla pelo console</p>
             <p>Você digitou isso aqui:{value}</p>
         </div>
     )
@@ -33,5 +34,35 @@ function KeyDownComponent() {
     return <input type="text" onKeyDown={handleKeyDown}/>
 }
 
-export {ClickButton, InputField, KeyDownComponent}
+//eventos de foco
+function FocusBlurComponent() {
+    function handleFocus() {
+        console.log('Input focused')
+    }
+
+    function handleBlur() {
+        console.log('Input lost focus')
+    }
+
+    return <input type="text" className="Focus" onFocus={handleFocus} onBlur={handleBlur}/>
+}
+
+//eventos de mouse
+function HoverComponent() {
+    function handleMouseEnter() {
+        console.log('Mouse entrou na div')
+    }
+
+    function handleMouseLeave() {
+        console.log('Mouse saiu!')
+    }
+
+    return (
+        <div id="Divisoria" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+            Hover over this text
+        </div>
+    )
+}
+
+export {ClickButton, InputField, KeyDownComponent, FocusBlurComponent, HoverComponent}
 

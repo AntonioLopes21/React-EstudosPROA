@@ -22,3 +22,40 @@ h1{
 
 body {
 }
+
+input {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Focus {
+    color: white;
+    background-color: red;
+    transition: 2s;
+    margin: auto;
+}
+
+.Focus:hover{
+    background-color: green;
+}
+
+#Divisoria {
+    background-color: red;
+    color: white;
+    transition: 4s;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#Divisoria:hover {
+    background-color: aquamarine;
+    color: red;
+    width: 100%;
+    border-radius: 100px;
+    text-transform: uppercase;
+}

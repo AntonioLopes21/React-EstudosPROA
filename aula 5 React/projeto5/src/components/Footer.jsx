@@ -1,5 +1,5 @@
 import React from "react";
-import { ClickButton, InputField,KeyDownComponent} from "./Events";
+import { ClickButton, InputField,KeyDownComponent, FocusBlurComponent, HoverComponent} from "./Events";
 function Footer() {
     return (
         <>
@@ -7,6 +7,8 @@ function Footer() {
                 <ClickButton />
                 <InputField />
                 <KeyDownComponent/>
+                <FocusBlurComponent/>
+                <HoverComponent/>
                 <h1>Aqui um footer</h1>
             </footer>
         </>
