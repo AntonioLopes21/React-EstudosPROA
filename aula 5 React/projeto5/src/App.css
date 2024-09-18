@@ -9,6 +9,8 @@ body {
 nav {
   display: flex;
   gap: 20px;
-  background-color: greenyellow;
+  background-color: rgba(47, 217, 255, 0.555);
   width: 100%;
+  position: relative;
+  
 }
