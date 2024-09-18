@@ -24,5 +24,14 @@ function InputField() {
     )
 }
 
-export {ClickButton, InputField}
+//eventos de teclado
+function KeyDownComponent() {
+    function handleKeyDown(event) {
+        console.log(`Key pressed: ${event.key}`)
+    }
+
+    return <input type="text" onKeyDown={handleKeyDown}/>
+}
+
+export {ClickButton, InputField, KeyDownComponent}
 
