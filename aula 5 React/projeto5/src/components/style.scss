@@ -59,3 +59,12 @@ input {
     border-radius: 100px;
     text-transform: uppercase;
 }
+
+#fotinhas{
+    display: flex;
+    flex-direction: row;
+    img {
+        border-radius: 5%;
+    }
+    gap: 15px;
+}

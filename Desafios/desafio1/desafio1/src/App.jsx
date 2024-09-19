@@ -5,6 +5,7 @@ function App() {
   return (
     <>  
         <Challenge/>
+        <img src="imagens.webp" alt="" />
     </>
   )
 }
