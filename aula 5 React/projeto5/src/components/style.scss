@@ -55,7 +55,7 @@ input {
 #Divisoria:hover {
     background-color: aquamarine;
     color: red;
-    width: 100%;
+    width: 90%;
     border-radius: 100px;
     text-transform: uppercase;
 }
@@ -67,4 +67,11 @@ input {
         border-radius: 5%;
     }
     gap: 15px;
+}
+
+.divisinha {
+    display: flex;
+    img {
+    border-radius: 5px;
+        }
 }
