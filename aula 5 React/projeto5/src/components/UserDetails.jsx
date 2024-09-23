@@ -21,7 +21,9 @@ function UserDetails() {
 
     return(
         <>
-            <p>Olá {Pessoa.nome} de {Pessoa.idade} e {Pessoa.profissao} </p>
+            <p>Olá, {Pessoa.nome} </p>
+            <p>Idade:{Pessoa.idade}</p>
+            <p>Profissão:{Pessoa.profissao} </p>
             <p>{Pessoa.verificarIdade()}</p>
         </>
     )   
