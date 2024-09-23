@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import imagenzinha from './assets/laRoxa.png'
 import Imagens from './components/imagens'
+import UserDetails from './components/UserDetails'
 
 function App() {
 
@@ -14,15 +15,20 @@ function App() {
 
   return (
     <>
-      <Header/>
-      <MainContent name="Antônio" idade={20} hp = {hp} />
+
+    <UserDetails/>
+
+
+
+      {/* <Header/> 
+      <MainContent name="Antônio" idade={20} hp = {hp} /> 
       <Imagens/>
       <Article/>
       <div id='fotinhas'>
       <img src={imagenzinha} alt=""/>
       <img src="aRoxa.png" alt="" />
-      </div>
-      <Footer/>
+      </div> 
+       <Footer/> */}
     </>
   )
 }
