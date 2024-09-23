@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Header/>
-      <MainContent/>
+      <MainContent name="Antônio" idade={21} />
       <Imagens/>
       <Article/>
       <div id='fotinhas'>
