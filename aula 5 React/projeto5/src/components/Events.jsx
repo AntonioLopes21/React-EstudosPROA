@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 
+
 function ClickButton() {
     function handleClick() {
         alert('botão clicado!')
@@ -62,6 +63,19 @@ function HoverComponent() {
             Hover over this text
         </div>
     )
+}
+
+
+//formulário
+function SimpleForm() {
+    //definindo o estado para armazenar o valor do campo de entrada
+    const [name, setName] = useState('')
+
+    //funcao que sera chamada sempre que o valor do input mudar
+    const handleInputChange = (event) => {
+        setName(event.target.value)
+    }
+
 }
 
 export {ClickButton, InputField, KeyDownComponent, FocusBlurComponent, HoverComponent}

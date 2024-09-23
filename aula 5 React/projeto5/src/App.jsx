@@ -8,6 +8,7 @@ import Header from './components/Header'
 import imagenzinha from './assets/laRoxa.png'
 import Imagens from './components/imagens'
 import UserDetails from './components/UserDetails'
+import { SimpleForm } from './components/SimpleForm'
 
 function App() {
 
@@ -18,8 +19,9 @@ function App() {
 
     <UserDetails/>
 
-
-
+    <div>
+      <SimpleForm/>
+    </div>
       {/* <Header/> 
       <MainContent name="Antônio" idade={20} hp = {hp} /> 
       <Imagens/>
