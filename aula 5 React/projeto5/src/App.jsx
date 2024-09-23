@@ -10,10 +10,12 @@ import Imagens from './components/imagens'
 
 function App() {
 
+  const hp = 100
+
   return (
     <>
       <Header/>
-      <MainContent name="Antônio" idade={21} />
+      <MainContent name="Antônio" idade={20} hp = {hp} />
       <Imagens/>
       <Article/>
       <div id='fotinhas'>
